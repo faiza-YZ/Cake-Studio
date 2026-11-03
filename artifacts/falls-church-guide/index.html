@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A neighborly little guide to Falls Church, Virginia: local pho, city facts, and a few things to like." />
+    <meta name="theme-color" content="#f5efe3" />
+    <title>Falls Church, Virginia — A Little City Guide</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Simple page navigation -->
+    <header class="masthead">
+      <a class="wordmark" href="#top" aria-label="Falls Church guide, top">FC<span>·</span></a>
+      <p class="masthead-note">A neighborly guide to<br />Virginia's Little City</p>
+      <a class="jump-link" href="#quick-facts">Get to know us <span aria-hidden="true">↘</span></a>
+    </header>
+
+    <main id="top">
+      <!-- Introduction and illustrated neighborhood scene -->
+      <section class="intro" aria-labelledby="page-title">
+        <div class="intro-copy">
+          <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> Northern Virginia, with a small-city heart</p>
+          <h1 id="page-title">Falls<br /><em>Church,</em><br />Virginia.</h1>
+          <p class="intro-deck">A close-knit city with room for a long lunch, a walk down Broad Street, and one more bowl of something good.</p>
+        </div>
+        <div class="intro-art" aria-label="Illustrated neighborhood scene">
+          <div class="sun-disc" aria-hidden="true"></div>
+          <div class="horizon-line" aria-hidden="true"></div>
+          <div class="building building-one" aria-hidden="true"><span></span><i></i><b></b></div>
+          <div class="building building-two" aria-hidden="true"><span></span><i></i><b></b></div>
+          <div class="tree tree-one" aria-hidden="true"><i></i></div>
+          <div class="tree tree-two" aria-hidden="true"><i></i></div>
+          <div class="street-sign" aria-hidden="true">BROAD ST.</div>
+          <p class="art-caption">A little city,<br />right at home.</p>
+          <span class="art-number" aria-hidden="true">38° 52′ N</span>
+        </div>
+      </section>
+
+      <!-- The requested food, facts, leader, bird, and favorites -->
+      <section class="guide-grid" aria-label="A few things about Falls Church">
+        <article class="feature-card food-card" aria-labelledby="food-title">
+          <div class="section-label"><span>01</span><span>Food</span></div>
+          <div class="food-copy">
+            <h2 id="food-title">Pho is a<br /><em>good place</em><br />to start.</h2>
+            <p>Falls Church is known for its Vietnamese food, and pho is an icon for a reason: fragrant broth, tender noodles, herbs, and the pleasure of taking your time over lunch.</p>
+            <span class="handwritten">Make it a long lunch.</span>
+          </div>
+          <figure class="pho-figure">
+            <img src="images/pho-bowl.svg" alt="A colorful illustrated bowl of pho topped with herbs, scallions, and red chili." />
+            <figcaption>A bowl worth slowing down for</figcaption>
+          </figure>
+        </article>
+
+        <article class="feature-card facts-card" id="quick-facts" aria-labelledby="facts-title">
+          <div class="section-label"><span>02</span><span>The essentials</span></div>
+          <h2 id="facts-title">Quick facts</h2>
+          <ul class="facts-list">
+            <li><span class="fact-index">A</span><span><strong>“The Little City”</strong><small>Our familiar nickname</small></span></li>
+            <li><span class="fact-index">B</span><span><strong>14,658</strong><small>Residents, 2020 Census</small></span></li>
+            <li><span class="fact-index">C</span><span><strong>1788</strong><small>Virginia became a state</small></span></li>
+          </ul>
+        </article>
+
+        <article class="feature-card civic-card" aria-labelledby="leader-title">
+          <div class="section-label"><span>03</span><span>Leader</span></div>
+          <div class="leader-mark" aria-hidden="true">VA</div>
+          <p class="mini-label">Your governor</p>
+          <h2 id="leader-title">Abigail<br />Spanberger</h2>
+          <p class="role">Governor of Virginia</p>
+          <span class="civic-rule" aria-hidden="true"></span>
+        </article>
+
+        <article class="feature-card bird-card" aria-labelledby="bird-title">
+          <div class="section-label"><span>04</span><span>State bird</span></div>
+          <div class="bird-copy">
+            <p class="mini-label">Virginia's state bird</p>
+            <h2 id="bird-title">Northern<br /><em>cardinal</em></h2>
+            <p>That bright flash of red is the cardinal, Virginia's unmistakable state bird.</p>
+            <p class="bird-hint">Tap or focus the bird and press Enter.</p>
+          </div>
+          <img class="bird" src="images/northern-cardinal.svg" alt="Illustration of a Northern cardinal perched on a branch. Activate to see it flutter." tabindex="0" role="button" aria-label="Make the Northern cardinal flutter" />
+        </article>
+
+        <section class="likes-card" aria-labelledby="likes-title">
+          <div class="likes-heading">
+            <div class="section-label"><span>05</span><span>Your corner of town</span></div>
+            <h2 id="likes-title">Things I <em>like.</em></h2>
+            <p>Keep a small list of your Falls Church favorites.</p>
+          </div>
+          <div class="likes-content">
+            <form id="likes-form">
+              <label for="like-input">A place, a taste, a little ritual</label>
+              <div class="input-row">
+                <input id="like-input" name="like" type="text" maxlength="80" placeholder="Write something you like…" autocomplete="off" />
+                <button type="submit">Add <span aria-hidden="true">＋</span></button>
+              </div>
+            </form>
+            <ul id="likes-list" class="likes-list" aria-live="polite" aria-relevant="additions"></ul>
+            <p id="likes-empty" class="empty-note">Your list begins with one good thing.</p>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <!-- Source links for the local facts and food context -->
+    <footer class="sources">
+      <div class="footer-top">
+        <p class="footer-mark">Falls Church<span>·</span> Virginia</p>
+        <p class="footer-note">A little city with a lot to share.</p>
+      </div>
+      <div class="source-links" aria-label="Sources">
+        <span>Further reading</span>
+        <a href="https://www.fallschurchva.gov/DocumentCenter/View/259/City-of-Falls-Church-Community-Profile-PDF" target="_blank" rel="noopener noreferrer">City nickname</a>
+        <a href="https://www.census.gov/quickfacts/fact/table/fallschurchcityvirginia/PST045224" target="_blank" rel="noopener noreferrer">Census count</a>
+        <a href="https://www.governor.virginia.gov/" target="_blank" rel="noopener noreferrer">Governor</a>
+        <a href="https://www.virginia.gov/about-virginia/" target="_blank" rel="noopener noreferrer">State bird &amp; statehood</a>
+        <a href="https://edencenter.com/stores/pho-ga-vang" target="_blank" rel="noopener noreferrer">Local pho spot</a>
+      </div>
+      <p class="copyright">Made for curious neighbors. Falls Church, Virginia.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

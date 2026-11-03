@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Falls Church, Virginia"
+description = "A single-page guide to Falls Church, Virginia, highlighting the local food scene, city facts, Virginia's bird, and a personal favorites list."
+version = "1.0.0"
+id = "artifacts/falls-church-guide"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23625
+
+[services.development]
+run = "python3 -m http.server $PORT --bind 0.0.0.0 --directory /home/runner/workspace/artifacts/falls-church-guide"
+
+[services.production]
+serve = "static"
+publicDir = "artifacts/falls-church-guide"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23625"
+BASE_PATH = "/"

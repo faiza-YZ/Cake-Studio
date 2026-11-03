@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 340" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrated bowl of pho</title>
+  <desc id="desc">A warm coral bowl filled with broth, noodles, herbs, scallions, and chili.</desc>
+  <ellipse cx="224" cy="302" rx="157" ry="18" fill="#c9b99e" opacity=".45"/>
+  <path d="M73 160h298c-8 104-63 147-149 147S81 264 73 160Z" fill="#c55c3e" stroke="#294846" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M98 194c11 70 50 103 124 103s113-33 124-103" fill="none" stroke="#e59a71" stroke-width="5"/>
+  <path d="M60 157c0-51 73-88 162-88s162 37 162 88c0 31-72 55-162 55S60 188 60 157Z" fill="#f4e5c8" stroke="#294846" stroke-width="7"/>
+  <ellipse cx="222" cy="155" rx="148" ry="43" fill="#a85a3d"/>
+  <path d="M89 151c21-19 34 19 54 0s34-19 53 1 35 18 54-2 35-18 54 2 34 17 50-2" fill="none" stroke="#f3d391" stroke-width="8" stroke-linecap="round"/>
+  <path d="M103 170c19-17 34 17 52 0s35-17 53 0 34 17 53 0 34-17 53 0 26 12 42-1" fill="none" stroke="#efd08d" stroke-width="7" stroke-linecap="round"/>
+  <g fill="#5a8767">
+    <path d="M133 126c2-25 23-35 36-31-2 19-13 33-36 31Z"/>
+    <path d="M158 133c5-27 30-32 41-23-7 19-21 29-41 23Z"/>
+    <path d="M269 121c9-24 34-27 42-15-10 17-25 24-42 15Z"/>
+    <path d="M289 140c13-22 36-20 42-6-14 15-29 19-42 6Z"/>
+    <path d="M203 126c4-23 21-31 34-25-2 18-14 28-34 25Z"/>
+  </g>
+  <g fill="#8eb28a">
+    <path d="M178 117c-19-14-15-31-3-39 16 12 19 24 3 39Z"/>
+    <path d="M254 137c-10-21 1-34 15-35 10 17 7 29-15 35Z"/>
+  </g>
+  <g fill="#5e995f">
+    <path d="M121 181h46v6h-46z"/><path d="M136 174h6v22h-6z"/>
+    <path d="M273 177h45v6h-45z"/><path d="M296 169h6v22h-6z"/>
+  </g>
+  <path d="M221 118c9-16 24-18 34-8-4 17-17 23-34 8Z" fill="#d84936"/>
+  <path d="M222 118c6 0 12-2 17-6" fill="none" stroke="#f0a05c" stroke-width="3" stroke-linecap="round"/>
+  <path d="M129 78c-8-14 8-20 1-34m82 25c-9-17 8-23 0-40m85 51c-8-13 8-18 1-30" fill="none" stroke="#7c9b8b" stroke-width="4" stroke-linecap="round" opacity=".62"/>
+</svg>
